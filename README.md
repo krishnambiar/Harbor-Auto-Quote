@@ -98,32 +98,16 @@ http://localhost:8000
 
 ## Project Structure
 
-.
-
-├── index.html
-
-├── src
-
-│   ├── data
-
-│   │   ├── addresses.js
-
-│   │   ├── coverage.js
-
-│   │   ├── discounts.js
-
-│   │   ├── ratingFactors.js
-
-│   │   ├── vehicleApi.js
-
-│   │   └── vehicles.js
-
-│   ├── engine
-
-│   │   └── quoteCalculator.js
-
-│   ├── main.js
-
-│   └── styles.css
-
-└── README.md  
+| Path | Purpose |
+| --- | --- |
+| `index.html` | Main HTML file that loads the app |
+| `src/main.js` | Main JavaScript file for the quote flow, screen rendering, and user interactions |
+| `src/styles.css` | Styling for the full app, including responsive layout |
+| `src/data/addresses.js` | Address search, fallback address data, and location normalization |
+| `src/data/coverage.js` | Coverage levels and deductible options |
+| `src/data/discounts.js` | Discount rules used in the quote calculation |
+| `src/data/ratingFactors.js` | State, location, parking, vehicle, and risk factor multipliers |
+| `src/data/vehicleApi.js` | NHTSA API integration for makes, models, and VIN decoding |
+| `src/data/vehicles.js` | Local vehicle data and estimated vehicle details |
+| `src/engine/quoteCalculator.js` | Quote calculation logic and coverage comparison logic |
+| `README.md` | Project documentation |
